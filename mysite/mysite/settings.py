@@ -87,7 +87,6 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
-
 DATABASES['default'] =  dj_database_url.config()
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -102,3 +101,8 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
