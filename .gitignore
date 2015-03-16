@@ -1,5 +1,4 @@
-myvenv
-__pycache__
-staticfiles
-local_settings.py
-db.sqlite3
+mysite/__pycache__
+mysite/staticfiles
+mysite/local_settings.py
+mysite/db.sqlite3
