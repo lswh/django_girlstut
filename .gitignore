@@ -2,3 +2,4 @@ mysite/__pycache__
 mysite/staticfiles
 mysite/local_settings.py
 mysite/db.sqlite3
+logs
