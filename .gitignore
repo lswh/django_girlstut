@@ -1,5 +1,5 @@
-mysite/__pycache__
-mysite/staticfiles
+__pycache__
+staticfiles
 mysite/local_settings.py
-mysite/db.sqlite3
+db.sqlite3
 logs
